@@ -59,7 +59,7 @@ main {
 #home-title::after{
     content: "";
     display: block;
-    width: 1080px;
+    width: 96%;
     border-bottom: 2px solid gray;
     margin: 20px 0px;
     margin-bottom: -5px;
@@ -73,7 +73,7 @@ li {
 main::after {
     content: "";
     display: block;
-    width: 1080px;
+    width: 93%;
     border-bottom: 2px solid gray;
     margin: 20px 30px;
 }
