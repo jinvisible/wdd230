@@ -1,0 +1,204 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", "Poppins";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: "Libre Baskerville", "Playfair Display";
+    display: grid;
+    top: 0;
+    width: 100%;
+    background-color: #8A897C;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav a:hover {
+    background-color: #BDBBB0;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #8A897C;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    margin-top: 50px;
+}
+
+.img {
+    text-align: center;
+    margin-left: 50px;
+}
+
+#person1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+#person2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.persona {
+    text-align: left;
+    padding: 50px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 100px;
+    padding-top: 0;
+    
+}
+
+#p {
+    background-color: #8A897C;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#s{
+    background-color: #BDBBB0;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#a1 {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#a2 {
+    background-color: #000000;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#typo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-collapse: collapse;
+    padding: 50px;
+    padding-top: 0;
+    line-height: 2;
+}
+
+#none {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid #000000;
+}
+
+#pri {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+#sec {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+#hf {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+#lb {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-family: "Libre Baskerville";
+}
+
+#pf {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-family: "Playfair";
+}
+
+#main {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+#ro {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-family: "Roboto";
+}
+
+#pop {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-family: "Poppins";
+}
