@@ -1,0 +1,178 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", "Poppins";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    min-width: 768px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: "Libre Baskerville", "Playfair Display";
+    display: grid;
+    grid-template-columns: 120px 1fr 60px 60px 102.56px;
+    top: 0;
+    width: 100%;
+    background-color: #8A897C;
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+    margin-bottom: 30px;
+}
+
+#header-logo {
+    margin-top: 10px;
+    width: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+h1 {
+    line-height: 2;
+    grid-column: 2/3;
+    text-align:center;
+}
+
+#youtube-link, #youtube {
+    margin-top: 7px;
+    margin-left: 3px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 50px;
+}
+
+#insta-link, #instagram {
+    margin-top: 8px;
+    margin-left: 3px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 50px;
+}
+
+#menu {
+    grid-column: 5/6;
+    background-color: #8A897C;
+}
+
+.date {
+    font-size: 15pt;
+    margin: 10px;
+    padding: 10px;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    background-color: #BDBBB0;
+}
+
+#menu-icon {
+    width: 50px;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+    display: block;
+}
+
+.responsive{
+    position: absolute;
+}
+
+.responsive li {
+	display: block;
+    padding: 15px;
+    background-color: #BDBBB0;
+}
+
+.responsive li:hover {
+    background-color: #8A897C;
+}
+
+.responsive li:first-child {
+    background-color: #8A897C;
+	padding: 0;
+    padding-bottom: 10px;
+}
+
+.responsive a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #8A897C;
+    color: #FFFFFF;
+}
+
+#footer-logo {
+    width: 200px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    margin: 2px;
+}
+
+#address {
+    margin-top: 0;
+}
+
+.base-footer p{
+    margin: 5px;
+}
+
+.base-footer {
+    padding-bottom:20px;
+}
+
+#lastMod::before {
+    content: "Last Modification: ";
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(4, 200px) 400px;
+}
+
+main section, #sp1, #sp2, #sp3 {
+    background-color: #BDBBB0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8A897C;
+    margin: 5px;
+}
+
+main section p, #sp1, #sp2, #sp3 {
+    margin: 10px;
+}
+
+.join, #sp3 {
+    display: none;
+}
+
+.spotlight p {
+    height: 160px;
+    padding: 10px;
+}
+
+#sp2 {
+    margin-top: -10px;
+}

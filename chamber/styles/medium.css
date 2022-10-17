@@ -1,0 +1,112 @@
+@media only screen and (min-width: 835px) {
+    main {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .news {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .spotlight {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        
+    }
+
+    .spotlight p {
+        float: left;
+        width: 45%;
+    }
+
+    #sp2 {
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+
+    .join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+
+    .event {
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+    .weather {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 230px 2fr 1fr;
+        grid-template-rows: auto;
+        text-align: left;
+    }
+
+    #footer-logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 20px;
+    }
+
+    #footer-title, #address {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-left: 20px;
+    }
+
+    #footer-title {
+        margin-top: 60px;
+    }
+    #address {
+        margin-top: 100px;
+    }
+
+    .contact {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #a {
+        margin-top: 70px;
+    }
+    
+    #b {
+        margin-top: 100px;
+    }
+
+    #c {
+        margin-top: 130px;
+    }
+
+    .base-footer {
+        grid-row: 3/4;
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #extra::after {
+        content: "  |  Jin Seo  |  WDD 230 Project"
+    }
+
+    footer hr {
+        grid-row: 2/3;
+        grid-column: 1/4;
+        width: 100%;
+    }
+}
